@@ -43,6 +43,7 @@ yarn add react-navigation react-navigation-tabs react-native-reanimated react-na
 # 2.4 Creating a Stack Navigation (13:04)
 
 - yarn add react-navigation-stack @react-native-community/masked-view react-native-safe-area-context
+- navigation - MainNavigation을 스택네비게이션으로 작업해서,Tab네이게이션을 넣고, detail페이지를 넣었음-> App.js에서 기본적으로 보이게 만듬.
 
 # 2.5 Styling Stack Navigators (13:09)
 
