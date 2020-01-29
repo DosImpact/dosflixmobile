@@ -27,6 +27,8 @@ yarn add react-navigation react-navigation-tabs react-native-reanimated react-na
 
 # 2.0 Creating a Tab Navigation (9:23)
 
+- navigation 폴더에 바텀탭 네비게이션을 만듬.
+
 [https://reactnavigation.org/docs/en/getting-started.html](https://reactnavigation.org/docs/en/getting-started.html)
 [https://reactnavigation.org/docs/en/bottom-tab-navigator.html](https://reactnavigation.org/docs/en/bottom-tab-navigator.html)
 
