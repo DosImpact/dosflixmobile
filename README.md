@@ -1,11 +1,16 @@
 # dosflix App
 
+# 설치 이슈
+
+- (npm i expo-cli -g ) //SDK 36 버전으로 업그래이드 되면서, expo client도 업글해야 작동하는 이슈발생
+- sdk 36버전에 따른 업데이트 절차 - 문서를 보는게 최고, how to upgrade 라고 나옴. expo upgrade 하나면 됨.
+- expo client (모바일 앱) 이것도 지우고 다시 깔아 , 클라이언트도 업데이트가 되야함.
+
 # 1.0 Expo Init (5:07)
 
-(npm i expo-cli -g ) //SDK 36 버전으로 업그래이드 되면서, expo client도 업글해야 작동하는 이슈발생
 expo init [AppName]
-yarn add prop-types styled-components axios @expo/vector-icons
-yarn add (react-navigation) react-navigation-tabs //
+yarn add prop-types styled-components axios @expo/vector-icons expo-font
+yarn add react-navigation react-navigation-tabs react-native-reanimated react-native-gesture-handler react-native-screens
 
 # 1.1 Introduction to Expo (6:24)
 
