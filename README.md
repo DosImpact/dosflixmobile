@@ -36,6 +36,8 @@ yarn add react-navigation react-navigation-tabs react-native-reanimated react-na
 
 # 2.2 Live Reloading vs Hot Reloading (2:43)
 
+- 라이브 로드: js파일을 저장할때마다 리프레쉬 됨 | 핫 리로드 : 라이브로드를 disable하고, 어플리케이션에서 변경된 부분만 리로드 한다.(스타일링 할때 유용하다. 코드부분수정할때는 어디가 리로드 되는지 모를수있다. )
+
 # 2.3 Introduction to Stack Navigation (6:35)
 
 # 2.4 Creating a Stack Navigation (13:04)
