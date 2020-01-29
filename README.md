@@ -42,6 +42,8 @@ yarn add react-navigation react-navigation-tabs react-native-reanimated react-na
 
 # 2.4 Creating a Stack Navigation (13:04)
 
+- yarn add react-navigation-stack @react-native-community/masked-view react-native-safe-area-context
+
 # 2.5 Styling Stack Navigators (13:09)
 
 # 2.6 Finishing Up (5:49)
