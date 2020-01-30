@@ -11,21 +11,11 @@ import SearchScreen from "../screens/Search";
 import { BG_COLOR } from "../constants/Colors";
 import TabBarIcon from "../components/TabBarIcon";
 
-// const MyStack = createStackNavigator({
-//   Tabs: {
-//     screen: MoviesScreen,
-//     navigationOptions: {
-//       title: "Movie",
-//       headerTitleAlign: "center"
-//     }
-//   }
-// });
-
 const TabNavigation = createBottomTabNavigator(
   {
     Movie: {
-      //screen:createStackNavigator({MoviesScreen}),
-      screen: MoviesScreen,
+      screen: createStackNavigator({ MoviesScreen }),
+      // screen: MoviesScreen,
       navigationOptions: {
         tabBarIcon: ({ focused }) => (
           <TabBarIcon

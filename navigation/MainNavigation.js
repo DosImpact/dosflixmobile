@@ -9,7 +9,7 @@ const MainNavigation = createStackNavigator(
       screen: TabNavigation,
       navigationOptions: {
         title: "TAB",
-        headerShown: true,
+        headerShown: false,
         headerBackTitleVisible: false,
         headerTitleAlign: "center"
       }

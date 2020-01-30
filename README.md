@@ -14,7 +14,8 @@
 
 expo init [AppName]
 yarn add prop-types styled-components axios @expo/vector-icons expo-font
-yarn add react-navigation react-navigation-tabs react-native-reanimated react-native-gesture-handler react-native-screens
+yarn add react-navigation react-navigation-tabs react-native-reanimated react-native-gesture-handler
+yarn add react-native-screens
 
 # 1.1 Introduction to Expo (6:24)
 
