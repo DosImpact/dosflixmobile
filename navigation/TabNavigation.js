@@ -14,15 +14,17 @@ import TabBarIcon from "../components/TabBarIcon";
 const TabNavigation = createBottomTabNavigator(
   {
     Movie: {
+      // screen: createStackNavigator({
+      //   Moive: {
+      //     screen: MoviesScreen,
+      //     navigationOptions: {
+      //       title: "Moive"
+      //     }
+      //   }
+      // }),
       screen: createStackNavigator({
-        Moive: {
-          screen: MoviesScreen,
-          navigationOptions: {
-            title: "Moive"
-          }
-        }
+        MoviesScreen
       }),
-      // screen: MoviesScreen,
       navigationOptions: {
         tabBarIcon: ({ focused }) => (
           <TabBarIcon
