@@ -18,6 +18,7 @@ expo init [AppName]
 yarn add prop-types styled-components axios @expo/vector-icons expo-font
 yarn add react-navigation react-navigation-tabs react-native-reanimated react-native-gesture-handler
 yarn add react-native-screens
+yarn add react-native-swiper
 
 # 1.1 Introduction to Expo (6:24)
 
@@ -57,3 +58,18 @@ yarn add react-native-screens
 - Error:There is no route defined for key MoviesScreen. : 나중에 문서를 참고해서 해결하자. 이상하네.... key 를 undefined
 
 # 2.6 Finishing Up (5:49)
+
+# 4 Containers
+
+- api 파일 | TV 및 영화 컨테이너 및 프리젠터 ( 리액트 JS 에서 재활용!)
+
+# 5.0 Making a Slider part One (11:29)
+
+- react-native-swiper
+  [https://github.com/leecade/react-native-swiper](https://github.com/leecade/react-native-swiper)
+
+# 5.1 Making a Slider part Two (14:23)
+
+# 5.2 Making a Slider part Three (9:36)
+
+# 5.3 Finishing the Slider (16:11)

@@ -13,12 +13,16 @@ const Typepo = styled.Text`
   color: ${TINT_COLOR};
 `;
 
-const MoviesPresenter = ({ loading }) => (
+const MoviesPresenter = ({ nowPlaying, upcoming, popular, error, loading }) => (
   <Container>{loading ? <Loader /> : <Typepo>Movies</Typepo>}</Container>
 );
 
 MoviesPresenter.propTypes = {
-  loading: PropTypes.bool.isRequired
+  loading: PropTypes.bool.isRequired,
+  nowPlaying: PropTypes.array,
+  upcoming: PropTypes.array,
+  popular: PropTypes.array,
+  error: PropTypes.string
 };
 
 export default MoviesPresenter;
