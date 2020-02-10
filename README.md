@@ -70,6 +70,8 @@ npm i --save react-native-swiper@nightly ( 2020 02 10 현재기준 react-native 
 
 # 5.1 Making a Slider part Two (14:23)
 
+- react Native에서는 { data && data.movies &&..} 등의 논리가 안됨. 이는 빈 문자열을 리턴하고, <Text>컴포넌트가 아닌곳에서는 애러를 발생.
+
 # 5.2 Making a Slider part Three (9:36)
 
 # 5.3 Finishing the Slider (16:11)
