@@ -14,17 +14,7 @@ import TabBarIcon from "../components/TabBarIcon";
 const TabNavigation = createBottomTabNavigator(
   {
     Movie: {
-      // screen: createStackNavigator({
-      //   Moive: {
-      //     screen: MoviesScreen,
-      //     navigationOptions: {
-      //       title: "Moive"
-      //     }
-      //   }
-      // }),
-      screen: createStackNavigator({
-        MoviesScreen
-      }),
+      screen: createStackNavigator({ MoviesScreen }),
       navigationOptions: {
         tabBarIcon: ({ focused }) => (
           <TabBarIcon
@@ -35,7 +25,7 @@ const TabNavigation = createBottomTabNavigator(
       }
     },
     TV: {
-      screen: TVScreen,
+      screen: createStackNavigator({ TVScreen }),
       navigationOptions: {
         tabBarIcon: ({ focused }) => (
           <TabBarIcon
@@ -46,7 +36,7 @@ const TabNavigation = createBottomTabNavigator(
       }
     },
     Search: {
-      screen: SearchScreen,
+      screen: createStackNavigator({ SearchScreen }),
       navigationOptions: {
         tabBarIcon: ({ focused }) => (
           <TabBarIcon

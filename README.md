@@ -1,5 +1,7 @@
 # dosflix App
 
+# 안드로이드 에뮬레이터 - 개발자 창 -> 컨트롤 M 이구나
+
 # 안드로이드 에뮬레이터 설치하기
 
 - 안드로이드 스튜디오에서 - AVD 매니저를 통해, 에뮬레이터 하나 만듬. & hyper V 체크 완료.
@@ -51,5 +53,7 @@ yarn add react-native-screens
 - navigation - MainNavigation을 스택네비게이션으로 작업해서,Tab네이게이션을 넣고, detail페이지를 넣었음-> App.js에서 기본적으로 보이게 만듬.
 
 # 2.5 Styling Stack Navigators (13:09)
+
+- Error:There is no route defined for key MoviesScreen. : 나중에 문서를 참고해서 해결하자. 이상하네.... key 를 undefined
 
 # 2.6 Finishing Up (5:49)
