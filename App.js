@@ -13,9 +13,11 @@ export default class App extends React.Component {
   handleError = error => console.log(error);
   handleLoaded = () => this.setState({ loaded: true });
   loadAssets = async () => {
-    await Font.loadAsync({
-      ...Ionicons.font 
-    });
+    await Promise.all([
+      Font.loadAsync({
+        ...Ionicons.font
+      })
+    ]);
   };
 
   render() {

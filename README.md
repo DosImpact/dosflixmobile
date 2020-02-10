@@ -18,7 +18,7 @@ expo init [AppName]
 yarn add prop-types styled-components axios @expo/vector-icons expo-font
 yarn add react-navigation react-navigation-tabs react-native-reanimated react-native-gesture-handler
 yarn add react-native-screens
-yarn add react-native-swiper
+npm i --save react-native-swiper@nightly ( 2020 02 10 현재기준 react-native 업데이트에 따른 임시버전)
 
 # 1.1 Introduction to Expo (6:24)
 

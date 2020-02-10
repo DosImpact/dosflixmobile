@@ -14,7 +14,7 @@ const Typepo = styled.Text`
 `;
 
 const TVPresenter = ({ loading }) => (
-  <Container>{loading ? <Loader /> : <Typepo>Movies</Typepo>}</Container>
+  <Container>{loading ? <Loader /> : <Typepo>Tv</Typepo>}</Container>
 );
 
 TVPresenter.propTypes = {
