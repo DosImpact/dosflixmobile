@@ -52,9 +52,9 @@ const MoviesPresenter = ({ nowPlaying, upcoming, popular, error, loading }) =>
             ))}
         </Section>
       ) : null}
-      {upcoming ? (
-        <Section title="Upcoming Movies">
-          {upcoming
+      {popular ? (
+        <Section title="Popular Movies">
+          {popular
             .filter(movie => movie.poster_path !== null)
             .map(movie => (
               <MovieItem
@@ -62,6 +62,7 @@ const MoviesPresenter = ({ nowPlaying, upcoming, popular, error, loading }) =>
                 id={movie.id}
                 posterPhoto={movie.poster_path}
                 title={movie.title}
+                overview={movie.overview}
                 voteAvg={movie.vote_average}
               />
             ))}
